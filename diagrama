@@ -1,0 +1,210 @@
+<mxfile>
+  <diagram name="Diagrama Casos de Uso" id="ucd">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- RECTÁNGULO DEL SISTEMA -->
+        <mxCell id="sistema" value="SISTEMA GAMEDEV SUITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;strokeWidth=2;fontSize=20;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="900" height="700" as="geometry"/>
+        </mxCell>
+        
+        <!-- MÓDULO AUTENTICACIÓN -->
+        <mxCell id="modulo_auth" value="MODULO AUTENTICACIÓN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="350" height="300" as="geometry"/>
+        </mxCell>
+        
+        <!-- MÓDULO GESTIÓN DESARROLLO -->
+        <mxCell id="modulo_dev" value="MODULO GESTIÓN DESARROLLO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="350" height="620" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== CASOS DE USO - AUTENTICACIÓN ========== -->
+        <mxCell id="uc_login" value="Iniciar sesión" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_register" value="Registrar usuario" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_recover" value="Recuperar contraseña" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="140" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_roles" value="Gestionar roles" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_audit" value="Ver auditoría" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== CASOS DE USO - GESTIÓN DESARROLLO ========== -->
+        <mxCell id="uc_tarea" value="Registrar tarea" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="160" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_actualizar" value="Actualizar tarea" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="160" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_bug" value="Reportar bug" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="240" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_asset" value="Subir asset" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="240" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_aprobar" value="Aprobar asset" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_codigo" value="Registrar código" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_version" value="Generar versión prueba" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="400" width="150" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_testeo" value="Ejecutar testeo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="400" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_distribucion" value="Publicar distribución" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="480" width="150" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_dashboard" value="Dashboard personal" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="140" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_calidad" value="Reporte calidad" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="750" y="560" width="130" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="uc_alerta" value="Alertar baja valoración" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="560" width="150" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== ACTORES ========== -->
+        <!-- Administrador -->
+        <mxCell id="actor_admin" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="40" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Productor -->
+        <mxCell id="actor_productor" value="Productor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="40" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Líder Técnico -->
+        <mxCell id="actor_lider" value="Líder Técnico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="40" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Desarrollador -->
+        <mxCell id="actor_dev" value="Desarrollador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="100" width="40" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tester -->
+        <mxCell id="actor_tester" value="Tester" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="250" width="40" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Artista -->
+        <mxCell id="actor_artista" value="Artista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="400" width="40" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== ASOCIACIONES (líneas sólidas) ========== -->
+        <!-- Administrador -->
+        <mxCell id="assoc_admin1" edge="1" parent="1" source="actor_admin" target="uc_login" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_admin2" edge="1" parent="1" source="actor_admin" target="uc_register" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_admin3" edge="1" parent="1" source="actor_admin" target="uc_roles" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_admin4" edge="1" parent="1" source="actor_admin" target="uc_audit" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Productor -->
+        <mxCell id="assoc_prod1" edge="1" parent="1" source="actor_productor" target="uc_tarea" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_prod2" edge="1" parent="1" source="actor_productor" target="uc_aprobar" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_prod3" edge="1" parent="1" source="actor_productor" target="uc_distribucion" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_prod4" edge="1" parent="1" source="actor_productor" target="uc_calidad" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Líder Técnico -->
+        <mxCell id="assoc_lider1" edge="1" parent="1" source="actor_lider" target="uc_aprobar" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_lider2" edge="1" parent="1" source="actor_lider" target="uc_codigo" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_lider3" edge="1" parent="1" source="actor_lider" target="uc_version" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Desarrollador -->
+        <mxCell id="assoc_dev1" edge="1" parent="1" source="actor_dev" target="uc_actualizar" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_dev2" edge="1" parent="1" source="actor_dev" target="uc_asset" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_dev3" edge="1" parent="1" source="actor_dev" target="uc_codigo" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_dev4" edge="1" parent="1" source="actor_dev" target="uc_dashboard" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Tester -->
+        <mxCell id="assoc_tester1" edge="1" parent="1" source="actor_tester" target="uc_bug" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc_tester2" edge="1" parent="1" source="actor_tester" target="uc_testeo" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Artista -->
+        <mxCell id="assoc_art1" edge="1" parent="1" source="actor_artista" target="uc_asset" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== RELACIÓN <<include>> ========== -->
+        <mxCell id="include_rel" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="265" as="sourcePoint"/>
+            <mxPoint x="400" y="185" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- ========== RELACIÓN <<extend>> ========== -->
+        <mxCell id="extend_rel" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;html=1;rounded=0;dashed=1;edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="505" as="sourcePoint"/>
+            <mxPoint x="995" y="585" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
